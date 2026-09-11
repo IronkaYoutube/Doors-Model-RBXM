@@ -3,7 +3,7 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local MyEntity = Spawner:Create({
     Entity = {
         Name = "RUSH-PRIME",
-        Asset = "https://github.com/AirSuper1/Doors-Model-RBXM/blob/main/Entity/PRIME-RUSH.rbxm?raw=true",
+        Asset = "https://github.com/AirSuper1/Doors-Model-RBXM/blob/main/Entity/RUSH-PRIME.rbxm?raw=true",
         HeightOffset = 0
     },
     Movement = {
