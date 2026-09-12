@@ -2,9 +2,9 @@ local CustomAchievements = loadstring(game:HttpGet("https://raw.githubuserconten
 
 CustomAchievements:Grant({
     Identifier = "A-60b",
-    Title = "You Executed A-60b",
-    Desc = "Its roomy",
-    Reason = "Executing the A-60b",
+    Title = "How familiar...",
+    Desc = "This face looks familiar.",
+    Reason = "Encounter the A-60b",
     Image = "rbxassetid://11278626246"
 }, {
     CheckOwned = true,
