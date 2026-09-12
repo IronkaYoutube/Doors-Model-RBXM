@@ -2,9 +2,9 @@ local CustomAchievements = loadstring(game:HttpGet("https://raw.githubuserconten
 
 CustomAchievements:Grant({
     Identifier = "A-400",
-    Title = "You Loaded A-400",
-    Desc = "Welcome to hell",
-    Reason = "Executing the script",
+    Title = "Slower and slower and slower...",
+    Desc = "Can you be faster?",
+    Reason = "Encounter the A-400",
     Image = "rbxassetid://101721399126876"
 }, {
     CheckOwned = true,
@@ -33,8 +33,8 @@ local MyEntity = Spawner:Create({
     Rebounding = {
         Enabled = true,
         Type = "Ambush", -- "Blitz"
-        Min = 3,
-        Max = 5,
+        Min = 5,
+        Max = 8,
         Delay = 2
     },
     Lights = {
