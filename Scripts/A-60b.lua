@@ -1,3 +1,16 @@
+local CustomAchievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/DOORS-Custom-Achievements/main/init.luau"))()
+
+CustomAchievements:Grant({
+    Identifier = "A-60b",
+    Title = "You Executed A-60b",
+    Desc = "Its roomy",
+    Reason = "Executing the A-60b",
+    Image = "rbxassetid://11278626246"
+}, {
+    CheckOwned = true,
+    Remember = true
+})
+
 local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/DOORS-Entity-Spawner-V2/main/init.luau"))()
 
 local MyEntity = Spawner:Create({
