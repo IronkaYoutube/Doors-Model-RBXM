@@ -51,7 +51,7 @@ local MyEntity = Spawner:Create({
     CameraShake = {
         Enabled = true,
         Values = {1.5, 20, 0.1, 1}, -- Magnitude, Roughness, FadeIn, FadeOut
-        Range = 450
+        Range = 170
     },
     Crucifixion = {
         Type = "Curious", -- "Guiding"
