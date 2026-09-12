@@ -66,6 +66,7 @@ local MyEntity = Spawner:Create({
         Cause = "B-10"
     }
 })
+
 MyEntity:SetCallback("OnSpawned", function()
     print("Entity has spawned")
 end)
