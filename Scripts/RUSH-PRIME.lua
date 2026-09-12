@@ -1,3 +1,16 @@
+local CustomAchievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/DOORS-Custom-Achievements/main/init.luau"))()
+
+CustomAchievements:Grant({
+    Identifier = "PRIME",
+    Title = "PRIME-TIME",
+    Desc = "RICK-PRIME",
+    Reason = "Executing the RUSH-PRIME",
+    Image = "rbxassetid://11221011755"
+}, {
+    CheckOwned = true,
+    Remember = false
+})
+
 local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/DOORS-Entity-Spawner/refs/heads/main/init.luau"))()
 
 local MyEntity = Spawner:Create({
