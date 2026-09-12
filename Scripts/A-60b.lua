@@ -8,7 +8,7 @@ CustomAchievements:Grant({
     Image = "rbxassetid://11278626246"
 }, {
     CheckOwned = true,
-    Remember = true
+    Remember = false
 })
 
 local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/DOORS-Entity-Spawner-V2/main/init.luau"))()
