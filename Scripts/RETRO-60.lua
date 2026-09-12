@@ -1,3 +1,16 @@
+local CustomAchievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/DOORS-Custom-Achievements/main/init.luau"))()
+
+CustomAchievements:Grant({
+    Identifier = "RETRO-GAMER",
+    Title = "RETRO",
+    Desc = "SOOOOOOOO RETROOOO",
+    Reason = "Executing the RETRO-60",
+    Image = "rbxassetid://8508980536"
+}, {
+    CheckOwned = true,
+    Remember = false
+})
+
 local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/DOORS-Entity-Spawner/refs/heads/main/init.luau"))()
 
 local MyEntity = Spawner:Create({
