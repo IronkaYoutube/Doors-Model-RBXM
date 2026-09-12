@@ -2,9 +2,9 @@ local CustomAchievements = loadstring(game:HttpGet("https://raw.githubuserconten
 
 CustomAchievements:Grant({
     Identifier = "Depth",
-    Title = "Depth",
-    Desc = "Son💔🥀",
-    Reason = "Executing the Depth",
+    Title = "So Depth",
+    Desc = "It's really Depth",
+    Reason = "Encounter the Depth",
     Image = "rbxassetid://10834791218"
 }, {
     CheckOwned = true,
