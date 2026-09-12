@@ -2,9 +2,9 @@ local CustomAchievements = loadstring(game:HttpGet("https://raw.githubuserconten
 
 CustomAchievements:Grant({
     Identifier = "A-235",
-    Title = "A-235",
+    Title = "Super-Sonic",
     Desc = "SOOOO FAST",
-    Reason = "Executing the A-235",
+    Reason = "Encounter the A-235",
     Image = "rbxassetid://109914529126616"
 }, {
     CheckOwned = true,
