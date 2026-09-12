@@ -1,3 +1,16 @@
+local CustomAchievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/DOORS-Custom-Achievements/main/init.luau"))()
+
+CustomAchievements:Grant({
+    Identifier = "A-400",
+    Title = "You Loaded A-400",
+    Desc = "Welcome to hell",
+    Reason = "Executing the script",
+    Image = "rbxassetid://101721399126876"
+}, {
+    CheckOwned = true,
+    Remember = false
+})
+
 local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/DOORS-Entity-Spawner/refs/heads/main/init.luau"))()
 
 local MyEntity = Spawner:Create({
