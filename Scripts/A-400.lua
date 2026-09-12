@@ -20,8 +20,8 @@ local MyEntity = Spawner:Create({
     Rebounding = {
         Enabled = true,
         Type = "Ambush", -- "Blitz"
-        Min = 7,
-        Max = 15,
+        Min = 3,
+        Max = 5,
         Delay = 2
     },
     Lights = {
